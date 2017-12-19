@@ -20,9 +20,9 @@ public class DesignPatterns_execise4_Strategy {
  /*Just playing with Git!!!!*/
  
  
-        CompressionTool ct1=new ZipCompression(); 
-        Compressor compressor=new Compressor(ct1);
-        compressor.fileComp(ct1);
+        CompressionTool ct=new ZipCompression(); 
+        Compressor compressor=new Compressor(ct);
+        compressor.fileComp(ct);
         CompressionTool ct2=new RarCompression();
         Compressor compressor2=new Compressor(ct2);
         compressor2.fileComp(ct2);
