@@ -17,7 +17,7 @@ public class DesignPatterns_execise4_Strategy {
     public static void main(String[] args) {
         
         
- //Just playing with Git!!!!
+ /*Just playing with Git!!!!*/
  
  
         CompressionTool ct1=new ZipCompression(); 
